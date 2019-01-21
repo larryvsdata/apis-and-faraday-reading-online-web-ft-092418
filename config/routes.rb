@@ -3,3 +3,6 @@ Rails.application.routes.draw do
   get '/search', to: 'searches#search'
   post '/search', to: 'searches#foursquare'
 end
+
+
+gem 'faraday'
